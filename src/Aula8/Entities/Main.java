@@ -1,5 +1,7 @@
-import Entities.Carro;
-import Entities.Receita;
+package Aula8.Entities;
+
+import Aula8.Entities.Carro;
+import Aula8.Entities.Receita;
 
 import javax.swing.*;
 import java.util.Scanner;

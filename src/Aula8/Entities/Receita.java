@@ -1,4 +1,4 @@
-package Entities;
+package Aula8.Entities;
 public class Receita {
     private String nome;
     private String descicao;
