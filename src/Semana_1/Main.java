@@ -1,7 +1,4 @@
-package Aula8.Entities;
-
-import Aula8.Entities.Carro;
-import Aula8.Entities.Receita;
+package Semana_1;
 
 import javax.swing.*;
 import java.util.Scanner;

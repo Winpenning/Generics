@@ -1,4 +1,4 @@
-package Aula8.Entities;
+package Semana_1;
 public class Receita {
     private String nome;
     private String descicao;
