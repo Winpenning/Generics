@@ -12,7 +12,7 @@ public class Main {
         byte x = e.nextByte();
 
         if(x == 1){
-
+            
         } else if (x==2) {
             Curso curso = new Curso("AED100","Algoritmos e Estruturas de Dados I");
             Departamento departamento = new Departamento("Departamendo de Computação", "Bloco B");
