@@ -9,16 +9,16 @@
   - Realização (Implementação de Uma interface)
 
 ### Associação
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img_2.png](img/img_2.png)
+![img_3.png](img/img_3.png)
 ---
 #### Representando
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 #### Multiplicidade
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
+![img_5.png](img/img_5.png)
+![img_6.png](img/img_6.png)
 #### Navegabilidade
-![img_7.png](img_7.png)
+![img_7.png](img/img_7.png)
 #### Exemplo de implementação
 Classe Main
 ```java
@@ -75,8 +75,8 @@ Palavras-chave de associação:
 - faz parte de.
 
 #### Falando de Agregação
-![img_8.png](img_8.png)
-![img_9.png](img_9.png)
+![img_8.png](img/img_8.png)
+![img_9.png](img/img_9.png)
 
 #### Exemplo de implementação
 
@@ -120,7 +120,7 @@ Nesse caso temos uma associação em que o objeto-todo
 o objeto-todo é responsável pela criação e destruição dos
 objetos-parte.
 
-![img_10.png](img_10.png)
+![img_10.png](img/img_10.png)
 
 #### Exemplo de implementação
 Classe Main
@@ -157,5 +157,5 @@ public class Secao{
 }
 ````
 ### Mensagem entre Objetos
-![img_11.png](img_11.png)
-![img_12.png](img_12.png)
+![img_11.png](img/img_11.png)
+![img_12.png](img/img_12.png)

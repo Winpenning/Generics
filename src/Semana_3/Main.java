@@ -1,6 +1,6 @@
 package Semana_3;
 import Semana_3.atividade2.*;
-
+import Semana_3.atividade1.*;
 import java.util.Scanner;
 
 
@@ -12,7 +12,16 @@ public class Main {
         byte x = e.nextByte();
 
         if(x == 1){
-            
+            Cliente cliente = new Cliente("Joãozinho", "Avenida Paulista 612 São Paulo");
+            Pedido pedido = new Pedido("20 de janeiro", false);
+            Item item = new Item("Xbox Series X", 5000, "Console de videogame");
+            Item item2 = new Item("Playstation 5", 6000, "Console de videogame");
+            Pagamento pagamento = new Pagamento("Débito", 0);
+            pedido.setPagamento(pagamento);
+            pedido.addItem(item);
+            pedido.addItem(item2);
+            cliente.addPedido(pedido);
+            System.out.println(cliente);
         } else if (x==2) {
             Curso curso = new Curso("AED100","Algoritmos e Estruturas de Dados I");
             Departamento departamento = new Departamento("Departamendo de Computação", "Bloco B");
